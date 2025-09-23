@@ -2,11 +2,15 @@ using UnityEngine;
 
 public class Warrior : Personaje
 {
-    public int Strength;
+    public int fuerza;
 
-    public void DescripcionWarrior()
+    public void DescriptionGuerrero()
     {
-        Descripcion();
-        Debug.Log("Fuerza: " + Strength);
-    }
+        Debug.Log("Nombre: " + personajeName + " - Salud: " + personajeHP + " - Fuerza: " + fuerza);
+    } 
+    
+    public override void Attack()
+    {
+        Debug.Log("Ataque con Espada");
+    }  
 }

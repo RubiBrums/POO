@@ -2,23 +2,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
     void Start()
     {
-        Weapon cuchillo = new Weapon()
+        Weapon sword = new Weapon()
         {
-            nombreWeapon = "Cuchillo",
-            dano = 10
+            weaponName = "Sword",
+            damage = 100
         };
-        cuchillo.mostrarInfo();
+        sword.ShowInfo();
 
-        Weapon arco = new Weapon()
+        Weapon axe = new Weapon()
         {
-            nombreWeapon = "Arco",
-            dano = 20
+            weaponName = "Axe",
+            damage = 150
         };
-        arco.mostrarInfo();
+        axe.ShowInfo();
     }
-
-
 }

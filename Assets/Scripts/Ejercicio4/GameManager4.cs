@@ -6,21 +6,21 @@ public class GameManager4 : MonoBehaviour
     {
         Warrior guerrero = new Warrior()
         {
-            characterName = "Guerrero",
-            characterHP = 200,
-            Strength = 300
+            personajeName = "Guerrero",
+            personajeHP = 200,
+            fuerza = 300
         };
 
-        guerrero.DescripcionWarrior();
+        guerrero.DescriptionGuerrero();
 
-        Mage mago = new Mage()
+        Mago mago = new Mago()
         {
-            characterName = "Mago",
-            characterHP = 120,
-            Mana = 500
+            personajeName = "Mago",
+            personajeHP = 120,
+            mana = 500
         };
 
-        mago.DescripcionMage();
+        mago.DescriptionMago();
 
 
     }

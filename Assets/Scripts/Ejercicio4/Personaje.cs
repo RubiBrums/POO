@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class Personaje
 {
-    public string characterName;
-    public int characterHP;
+    public string personajeName;
+    public int personajeHP;
 
-    public void Descripcion()
+    public virtual void Attack()
     {
-        Debug.Log("Nombre: " + characterName);
-        Debug.Log("HP: " + characterHP);
+        Debug.Log("Ataque Normal");
     }
 }

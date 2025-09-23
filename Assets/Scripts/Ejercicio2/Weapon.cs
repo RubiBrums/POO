@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Weapon
 {
-    public string nombreWeapon;
-    public int dano;
-    public void mostrarInfo()
+    public string weaponName;
+    public int damage;
+
+    public void ShowInfo()
     {
-        Debug.Log("Nombre: " + nombreWeapon + " - Daño: " + dano);
+        Debug.Log("Información - Nombre: "+ weaponName + " - Daño: " + damage);
     }
-
-
+    
 }

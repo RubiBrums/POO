@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerStats
 {
-
     private int health = 100;
 
     public void TakeDamage(int damage)
@@ -10,13 +9,13 @@ public class PlayerStats
         health -= damage;
     }
 
-    public void Heal(int healthPoints)
+    public void Heal(int healPoints)
     {
-        health += healthPoints;
+        health += healPoints;
     }
 
     public void PrintHealth()
     {
-        Debug.Log("Salud: " + health);
+        Debug.Log("Health: " + health);
     }
 }

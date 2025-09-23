@@ -2,18 +2,19 @@ using UnityEngine;
 
 public class Enemy
 {
-    public string nombre;
-    public int hp;
+    public string enemyName;
+    public int enemyHP;
 
-
-    public Enemy(string Nombre, int HP)
+    public Enemy(string name, int hp)
     {
-        nombre = Nombre;
-        hp = HP;
+        enemyName = name;
+        enemyHP = hp;
     }
+
     public void Show()
     {
-        Debug.Log("Nombre: " + nombre + " - HP: " + hp);
+        Debug.Log("Nombre: " + enemyName);
+        Debug.Log("HP: " + enemyHP);
     }
-
+    
 }
